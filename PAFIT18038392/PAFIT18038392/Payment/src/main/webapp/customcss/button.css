@@ -1,0 +1,21 @@
+.btncustom {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 35px 80px;
+  font-size: 30px;
+  cursor: pointer;
+}
+.info {
+  border-color: 	#FF0000;
+  color: red;
+}
+
+.info:hover {
+  background: #8B0000;
+  color: white;
+}
+
+.btncustom {
+  border-radius: 20px;
+}

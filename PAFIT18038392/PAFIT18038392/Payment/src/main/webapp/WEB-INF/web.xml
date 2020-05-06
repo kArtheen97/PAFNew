@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This web.xml file is not required when using Servlet 3.0 container,
+     see implementation details http://jersey.java.net/nonav/documentation/latest/jax-rs.html -->
+     <element>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+
+  <servlet>
+    <description></description>
+    <display-name>PaymentsAPI</display-name>
+    <servlet-name>PaymentsAPI</servlet-name>
+    <servlet-class>com.kushan.Payment.PaymentsAPI</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PaymentsAPI</servlet-name>
+    <url-pattern>/PaymentsAPI</url-pattern>
+  </servlet-mapping>
+</web-app>
+</element>
